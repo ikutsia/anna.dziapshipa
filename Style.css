@@ -1,0 +1,262 @@
+/* Example using Google Fonts */
+/*@import url("https://fonts.googleapis.com/css2?family='Segoe UI', Tahoma, Geneva, Verdana, sa&display=swap");
+body {
+  font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sa", sa;
+}*/
+
+@font-face {
+  font-family: myFont;
+  src: url(Duera-NormBlac-PERSONAL.ttf);
+}
+
+.html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting*/
+  /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+  font-size: 62.5%;
+}
+
+.Projects {
+  color: black;
+  text-decoration: none;
+}
+
+.About {
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  font-family: myFont;
+  font-size: 3em;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.gif {
+  border-radius: 20px;
+}
+
+h1 {
+  color: brown;
+  font-family: myFont;
+  font-size: 10.5em; /* 1060% */
+  margin-top: 0.05em; /* 20px */
+  margin-bottom: 0.05em; /* 6px */
+  padding-top: 0.0001em;
+  padding-bottom: 0.0001em;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  gap: 22em; /* 27% */
+  font-family: myFont;
+  font-size: 1em; /* 15px */
+}
+
+article {
+  /*display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100px;
+  height: 100px;*/
+  display: flex;
+  justify-content: left;
+}
+
+/*.anna-photo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 1000px;
+}
+
+.anna-profile {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}*/
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5em; /* 5% */
+}
+
+ul {
+  list-style: none;
+  font-family: myFont;
+  color: brown;
+  font-size: 1.5em; /* 20px */
+  justify-content: center;
+}
+
+/*.line-1 {
+  justify-content: center;
+}*/
+
+span {
+  display: flex;
+  justify-content: center;
+  font-family: myFont;
+  background-color: black;
+  margin-bottom: 0em; /* 0% */
+  padding-bottom: 0em; /* 0% */
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  gap: 17em; /* 36% */
+  border-top: solid #ffffff;
+  flex-basis: 98%; /* 98% */
+}
+
+.item-2 {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+aside {
+  /*margin-top: 10px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-me {
+  color: black;
+}
+
+.c-1 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%;
+}
+
+.c-2 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%;
+}
+
+.c-3 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  line-height: 0%;
+}
+
+.c-4 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%;
+}
+
+.c-5 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%; /*50%;*/
+}
+
+.c-6 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%; /*15%;*/
+}
+
+.c-7 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%; /*15%;*/
+}
+
+.c-8 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%; /*15%;*/
+}
+
+.c-11 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkgray;
+  line-height: 0%; /*1000%;*/
+}
+
+.c-12 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0%; /*0%;*/
+}
+
+footer {
+  background-color: black;
+  color: #ffffff;
+  /*margin-top: 10px;*/
+  padding-top: 0.5em; /*10px;*/
+  padding-bottom: 0.5em; /*10px;*/
+  padding-left: 0.5em; /*10px;*/
+}
+
+.About {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.About:hover {
+  color: brown;
+}
+
+.Films {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.Films:hover {
+  color: brown;
+}
+
+.Projects {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.Projects:hover {
+  color: brown;
+}

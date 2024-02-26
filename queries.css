@@ -1,0 +1,666 @@
+/* rem and em do NOT depend on html font-size in media queries!
+Instead 1 rem = 1 em = 16px */
+
+/********************************/
+/* BELOW 1344px (Smaller desktops)*/
+/********************************/
+
+@media screen and (max-width: 160em) {
+  .nav {
+    font-size: 3em;
+  }
+  .box {
+    gap: 10em;
+  }
+  h1 {
+    font-size: 10.5em;
+    margin-top: 0.05em;
+    margin-bottom: 0.05em;
+  }
+  .div {
+    gap: 22em;
+    font-size: 1em;
+  }
+  .profile {
+    gap: 1em;
+  }
+  ul {
+    font-size: 1.5em;
+  }
+  h2 {
+    gap: 32em;
+  }
+  .item-1 {
+    font-size: 1.2em;
+  }
+  .item-2 {
+    font-size: 1.2em;
+  }
+  .item-3 {
+    font-size: 1.2em;
+  }
+  .gif {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .c-1 {
+    font-size: 5em;
+  }
+  .c-2 {
+    font-size: 5em;
+  }
+  .c-3 {
+    font-size: 5.5em;
+  }
+  .c-4 {
+    font-size: 5em;
+  }
+  .c-5 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-6 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-7 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-8 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-9 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-10 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-11 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-12 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+  }
+}
+
+/* -Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+
+@media screen and (max-width: 90em) {
+  .nav {
+    font-size: 3em;
+  }
+  .box {
+    gap: 5em;
+    margin-left: -4.5em;
+  }
+  h1 {
+    font-size: 8em;
+    margin-top: auto; /*0.05em;*/
+    margin-bottom: auto; /*0.05em;*/
+    margin-left: auto; /*-1.7em;*/
+    margin-right: auto;
+    text-align: center;
+  }
+
+  /*Below main header items */
+  .div {
+    gap: 10em;
+    font-size: 1em;
+    margin-left: -13em;
+  }
+
+  container {
+    width: min-content;
+    height: min-content;
+  }
+
+  .profile {
+    gap: 1em;
+  }
+  ul {
+    font-size: 1.5em;
+  }
+  h2 {
+    gap: 32em;
+  }
+  .item-1 {
+    font-size: 1.2em;
+  }
+  .item-2 {
+    font-size: 1.2em;
+  }
+  .item-3 {
+    font-size: 1.2em;
+  }
+  .gif {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .c-1 {
+    font-size: 5em;
+  }
+  .c-2 {
+    font-size: 5em;
+  }
+  .c-3 {
+    font-size: 5.5em;
+  }
+  .c-4 {
+    font-size: 5em;
+  }
+  .c-5 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-6 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-7 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-8 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-9 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-10 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-11 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-12 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+  }
+}
+
+/*Optimized for 1439 px*/
+@media screen and (max-width: 89.93em) {
+  .nav {
+    font-size: 2.14em;
+  }
+  .box {
+    gap: 3.57em;
+    margin-left: 0.6em;
+  }
+  h1 {
+    font-size: 5, 71em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  /*Below main header items */
+  .div {
+    gap: 19em;
+    font-size: 0.71em;
+    margin-left: 5em;
+    margin-right: 1em;
+  }
+
+  container {
+    width: min-content;
+    height: min-content;
+  }
+
+  .profile {
+    gap: 0.71em;
+  }
+  ul {
+    font-size: 1.07em;
+  }
+  h2 {
+    gap: 22.85em;
+  }
+  .item-1 {
+    font-size: 1.2em;
+  }
+  .item-2 {
+    font-size: 1.2em;
+  }
+  .item-3 {
+    font-size: 1.2em;
+  }
+  .gif {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .c-1 {
+    font-size: 5em;
+  }
+  .c-2 {
+    font-size: 5em;
+  }
+  .c-3 {
+    font-size: 5.5em;
+  }
+  .c-4 {
+    font-size: 5em;
+  }
+  .c-5 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-6 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-7 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-8 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-9 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-10 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-11 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-12 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 20px 20px;
+  }
+}
+
+/*Optimized for iPad Pro 1024*/
+@media screen and (max-width: 64em) {
+  .nav {
+    font-size: 2.14em;
+  }
+  .box {
+    gap: 3.57em;
+    margin-left: 0.6em;
+  }
+  h1 {
+    font-size: 5, 71em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  /*Below main header items */
+  .div {
+    gap: 19em;
+    font-size: 0.71em;
+    margin-left: 5em;
+    margin-right: 1em;
+  }
+
+  container {
+    width: min-content;
+    height: min-content;
+  }
+
+  .profile {
+    gap: 0.71em;
+  }
+  ul {
+    font-size: 1.07em;
+  }
+  h2 {
+    gap: 22.85em;
+  }
+  .item-1 {
+    font-size: 1.2em;
+  }
+  .item-2 {
+    font-size: 1.2em;
+  }
+  .item-3 {
+    font-size: 1.2em;
+  }
+  .gif {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .c-1 {
+    font-size: 5em;
+  }
+  .c-2 {
+    font-size: 5em;
+  }
+  .c-3 {
+    font-size: 5.5em;
+  }
+  .c-4 {
+    font-size: 5em;
+  }
+  .c-5 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-6 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-7 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-8 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-9 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-10 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-11 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-12 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 20px 20px;
+  }
+
+  .aboutMe-h1 {
+    font-size: 4em;
+  }
+
+  .aboutMe-text {
+    font-size: 1.8em;
+  }
+}
+
+/*Optimized for 906px*/
+
+@media screen and (max-width: 56.62em) {
+  .nav {
+    font-size: 2.14em;
+  }
+  .box {
+    gap: 3.57em;
+    margin-left: 0.6em;
+  }
+  h1 {
+    font-size: 5, 71em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  /*Below main header items */
+  .div {
+    gap: 19em;
+    font-size: 0.71em;
+    margin-left: 5em;
+    margin-right: 1em;
+  }
+
+  container {
+    width: min-content;
+    height: min-content;
+  }
+
+  .profile {
+    gap: 0.71em;
+  }
+  ul {
+    font-size: 1.07em;
+  }
+  h2 {
+    gap: 22.85em;
+  }
+  .item-1 {
+    font-size: 1.2em;
+  }
+  .item-2 {
+    font-size: 1.2em;
+  }
+  .item-3 {
+    font-size: 1.2em;
+  }
+  .gif {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .c-1 {
+    font-size: 5em;
+  }
+  .c-2 {
+    font-size: 5em;
+  }
+  .c-3 {
+    font-size: 5.5em;
+  }
+  .c-4 {
+    font-size: 5em;
+  }
+  .c-5 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-6 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-7 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-8 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-9 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-10 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-11 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .c-12 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 20px 20px;
+  }
+}
+
+/*Optimized for mobile phones*/
+
+@media screen and (max-width: 38em) {
+  .nav {
+    font-size: 0.0001em;
+  }
+  .box {
+    gap: 5em;
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 2.5em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+  .div {
+    gap: 1em;
+    font-size: 0.5em;
+  }
+  .profile {
+    gap: 0.1em;
+  }
+  ul {
+    font-size: 0.68em;
+  }
+  h2 {
+    gap: 3.5em;
+  }
+  .item-1 {
+    font-size: 0.54em;
+  }
+  .item-2 {
+    font-size: 0.54em;
+  }
+  .item-3 {
+    font-size: 0.54em;
+  }
+  .gif {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .c-1 {
+    font-size: 4.54em;
+  }
+  .c-2 {
+    font-size: 4.54em;
+  }
+  .c-3 {
+    font-size: 5em;
+  }
+  .c-4 {
+    font-size: 4.54em;
+  }
+  .c-5 {
+    font-size: 0.9em;
+    line-height: 0.45em;
+  }
+  .c-6 {
+    font-size: 0.9em;
+    line-height: 0.45em;
+  }
+  .c-7 {
+    font-size: 0.9em;
+    line-height: 0.45em;
+  }
+  .c-8 {
+    font-size: 0.9em;
+    line-height: 0.45em;
+  }
+  .c-9 {
+    font-size: 0.9em;
+    line-height: 0.45em;
+  }
+  .c-10 {
+    font-size: 1.81em;
+    line-height: 0.45em;
+  }
+  .c-11 {
+    font-size: 0.9em;
+    line-height: 0.45em;
+  }
+  .c-12 {
+    font-size: 1.5em;
+    line-height: 0.45em;
+  }
+  footer {
+    padding-top: 0.22em;
+    padding-bottom: 0.22em;
+    padding-left: 0.22em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 20px 20px;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .aboutMe-h1 {
+    font-size: 2em;
+  }
+
+  .aboutMe-text {
+    font-size: 1em;
+  }
+}

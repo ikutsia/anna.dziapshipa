@@ -1,0 +1,50 @@
+.html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting*/
+  /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(Duera-NormBlac-PERSONAL.ttf);
+}
+
+header {
+  position: absolute;
+  width: 100vw;
+  background-color: rgb(40, 40, 40);
+  font-family: myFont;
+}
+
+h1 {
+  font-family: myFont;
+  color: brown;
+  margin-left: 30rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 390px);
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+}
+body {
+  font-size: 30px;
+  margin-left: 5%;
+}
